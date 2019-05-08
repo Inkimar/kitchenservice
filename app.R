@@ -7,7 +7,7 @@ ui <- fluidPage(
 
 server <- function(input,output) {
   kitchenURL <- fread('https://raw.github.com/wiki/Inkimar/kitchen-service/kitchen.md')
-  rubrik <- 'Köksvecka, för vecka'
+   rubrik <- 'Köksvecka, för vecka'
   currentWeek <- week(Sys.time())
   comb <- paste(rubrik,currentWeek)
   thisweek <- filter(kitchenURL, week == currentWeek)
