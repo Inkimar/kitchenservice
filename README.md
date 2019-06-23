@@ -1,6 +1,11 @@
 # kitchenservice
 hobby project using R and Shiny
 
+# github-pages
+
+1. edited here.
+2. published here https://inkimar.github.io/kitchenservice/
+
 ## publishing at shinyapps.io
 https://ingimar.shinyapps.io/Kitchen-tutorial5/
 
